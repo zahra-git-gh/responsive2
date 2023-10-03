@@ -1,0 +1,10 @@
+#image-two{
+    max-width: 65px;
+}
+.border-primary{
+    border-style: dashed !important;
+}
+
+.bg-primary:hover{
+    background-color: aqua !important;
+}
