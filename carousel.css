@@ -1,8 +1,13 @@
 .carousel-item {
-    height: 500px; /* Adjust this value as needed */
+  /* height: 500px; */
+
+  /* Adjust this value as needed */
 }
 .carousel-item img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+  object-fit: cover;
+  /* height: 100%; */
+
+  /* این پایینی برا اینه که به عکسه بگیم کمتر از 500 پیکسل اجازه نداره بشه */
+  min-height: 500px;
+  width: 100%;
 }
